@@ -64,7 +64,7 @@ def no_longer_afk(update: Update, context: CallbackContext):
                 "{} is awake!",
                 "{} is back online!",
                 "{} is finally here!",
-                "Welcome back! {}",
+                "Welcome Peru {}",
                 "Where is {}?\nIn the chat!",
             ]
             chosen_option = random.choice(options)
