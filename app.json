@@ -1,5 +1,5 @@
 {
-      "name": "TIANA 2.0",
+      "name": "Anisha",
       "logo": "https://telegra.ph/file/bcd7b3dec21d1c2b2583a.png",
       "description": "Telegram group management bot.",
       "keywords": [
@@ -9,7 +9,7 @@
          "manager",
          "Emcee"
       ],   
-   "repository": "https://github.com/prince301102/tiana-2.0",
+   "repository": "https://github.com/Lizzy-Robot/TIANABOT",
    "addons": [
       {
          "options": {
@@ -47,7 +47,7 @@
       "BOT_ID": {
          "description": "Your bot ID.. Use any other bot to get it.",
          "required": false,
-         "value": "1836395711"
+         "value": ""
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
@@ -62,7 +62,7 @@
          "value": ""
       },
       "SUPPORT_CHAT": {
-         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
+         "description": "Your Bots Support Chat Username.",
          "required": true,
          "value": ""
       },
@@ -154,7 +154,7 @@
       },
       "URL": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
-         "required": false,
+         "required": true,
          "value": "https://<appname>.herokuapp.com/"
       },
       "No_LOAD": {
@@ -174,7 +174,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://t.me/prince_3011"
+         "value": "https://t.me/Lover_xd"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
