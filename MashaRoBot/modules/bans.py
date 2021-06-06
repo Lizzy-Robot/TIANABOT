@@ -73,11 +73,11 @@ def ban(update: Update, context: CallbackContext) -> str:
             )
         elif user_id in DEMONS:
             message.reply_text(
-                "Bring an order from Heroes association to fight a Demon disaster."
+                "Bring an order from Bakchodi_Squad to fight with Demon disaster."
             )
         elif user_id in TIGERS:
             message.reply_text(
-                "Bring an order from Heroes association to fight a Tiger disaster."
+                "Bring an order from Bakchodi_Squad to fight a Tiger disaster."
             )
         elif user_id in WOLVES:
             message.reply_text("Wolf abilities make them ban immune!")
@@ -299,7 +299,7 @@ def punchme(update: Update, context: CallbackContext):
 
     res = update.effective_chat.unban_member(user_id)  # unban on current user = kick
     if res:
-        update.effective_message.reply_text("*punches you out of the group*")
+        update.effective_message.reply_text("*Nikal Lawde Pehli Fursat Me*")
     else:
         update.effective_message.reply_text("Huh? I can't :/")
 
