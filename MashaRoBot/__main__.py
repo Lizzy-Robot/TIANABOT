@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 
-PM_START_TEXT = """Hello, My name is *Anisha*
+PM_START_TEXT = """Hello [🤗](https://telegra.ph/file/abb72799a65043341382c.jpg), My name is Anisha 
 
  I am a Group Manager,
 Made specially for Managing Groups.
@@ -108,7 +108,7 @@ buttons = [
 ]
 
 HELP_STRINGS = """
-*ANISHA* WITH NEW FEATURES
+*ANISHA* WITH NEW FEATURES [😇](https://telegra.ph/file/d734c82530c199452abba.jpg)
 
 ꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF ANISHA*꧂
 
